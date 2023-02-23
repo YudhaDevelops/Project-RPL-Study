@@ -1,0 +1,342 @@
+.card {
+  border: 1px outset;
+  padding: 10px;
+  box-shadow: 5px 5px #888888;
+  border-radius: 5%;
+}
+.container-fluid,
+html {
+  background: #f9d7ff;
+  scroll-behavior: smooth;
+}
+#navbar,
+#navbawah {
+  background-color: #f2a8ff;
+}
+#cari,
+#tombol {
+  background-color: #dc1afe;
+  color: #000;
+  letter-spacing: 1px;
+  text-size-adjust: inherit;
+  line-height: 18px;
+}
+@media (min-width: 1199px) {
+  #produk {
+    padding-bottom: 50px;
+  }
+  .container {
+    max-width: 1500px;
+    padding-left: 50px;
+  }
+  #navbar {
+    padding-left: 50px;
+  }
+  #scbox {
+    margin-top: 20px;
+  }
+  #boxx {
+    width: 1500px;
+  }
+  h1 {
+    font-size: 70px;
+    padding-bottom: 10px;
+  }
+  #kembali {
+    margin-left: 100px;
+    margin-right: -5px;
+    color: #dc1afe;
+    width: 35px;
+    height: 35px;
+  }
+  #batas {
+    padding-top: 100px;
+  }
+  #proct {
+    width: 300px;
+    margin-bottom: 40px;
+    height: 400px;
+  }
+  .card-text {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  #tombol {
+    background-color: #dc1afe;
+    color: #000;
+    letter-spacing: 1px;
+    text-size-adjust: inherit;
+    line-height: 18px;
+    width: 170px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  h5 {
+    font-size: 30px;
+  }
+  #filter {
+    padding-top: 5px;
+  }
+  #contFilter {
+    padding-top: 140px;
+    padding-left: 110px;
+  }
+  #logo {
+    width: 180px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 1025px) {
+  #atas {
+    padding-top: 150px;
+  }
+  #proct {
+    width: 200px;
+    margin-bottom: 30px;
+    height: 270px;
+  }
+  .card-text {
+    margin-left: 10px;
+    margin-bottom: 1px;
+    font-size: 15px;
+  }
+  #kembali {
+    margin-left: 100px;
+    margin-right: -5px;
+    color: #dc1afe;
+    width: 35px;
+    height: 35px;
+  }
+  #logo {
+    width: 150px;
+    height: 70px;
+  }
+  #navbar {
+    padding-left: 50px;
+  }
+  #scbox {
+    margin-top: 20px;
+  }
+  #boxx {
+    width: 600px;
+  }
+  #tombol {
+    background-color: #dc1afe;
+    color: #000;
+    letter-spacing: 1px;
+    text-size-adjust: inherit;
+    line-height: 18px;
+    width: 80px;
+    height: 30px;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: -1px;
+  }
+  h1 {
+    padding-bottom: 20px;
+  }
+  #contFilter {
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .form-control {
+    width: 150px;
+    height: 40px;
+  }
+  #logo {
+    padding-top: 10px;
+    width: 110px;
+    height: 60px;
+  }
+  #boxxes {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+  }
+  #scbox {
+    margin-top: 10px;
+  }
+  #atas {
+    padding-top: 100px;
+  }
+  #proct {
+    width: 150px;
+    margin-bottom: 30px;
+    height: 200px;
+  }
+  .card-text {
+    margin-left: 10px;
+    margin-bottom: 1px;
+    font-size: 12px;
+  }
+  #kembali {
+    margin-left: 100px;
+    margin-right: -5px;
+    color: #dc1afe;
+    width: 30px;
+    height: 30px;
+  }
+  #navbar {
+    padding-left: 50px;
+  }
+  #scbox {
+    margin-top: 20px;
+  }
+  #boxx {
+    width: 600px;
+  }
+  #tombol {
+    background-color: #dc1afe;
+    color: #000;
+    letter-spacing: 1px;
+    text-size-adjust: inherit;
+    line-height: 5px;
+    width: 70px;
+    height: 20px;
+    font-size: 5px;
+  }
+  h5 {
+    padding-top: 5px;
+    font-size: 15px;
+  }
+  h1 {
+    padding-bottom: 20px;
+  }
+  #contFilter {
+    padding-bottom: 20px;
+  }
+  .dropdown-item {
+    font-size: 5px;
+  }
+}
+@media (max-width: 430px) {
+  #navbar {
+    height: 60px;
+  }
+  #logo {
+    width: 90px;
+    height: 45px;
+  }
+  #boxxes {
+    margin-top: 6px;
+    width: 10px;
+    height: 20px;
+    font-size: 10px;
+  }
+  #boxx {
+    width: 300px;
+  }
+  #cari {
+    background-color: #dc1afe;
+    color: #000;
+    line-height: 1px;
+    height: 18px;
+    width: 40px;
+    font-size: 1px;
+  }
+  #scbox {
+    width: 200px;
+    margin-top: 10px;
+  }
+  #atas {
+    padding-top: 100px;
+  }
+  #proct {
+    width: 200px;
+    margin-bottom: 30px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card-text {
+    margin-left: 10px;
+    margin-bottom: 1px;
+    font-size: 1px;
+  }
+  #kembali {
+    margin-top: 7px;
+    margin-left: 20px;
+    color: #dc1afe;
+    width: 20px;
+    height: 20px;
+  }
+  #navbar {
+    padding-left: 10px;
+  }
+  #tombol {
+    background-color: #dc1afe;
+    color: #000;
+    letter-spacing: 0px;
+    text-size-adjust: inherit;
+    line-height: 1px;
+    width: 60px;
+    height: 20px;
+    font-size: 2px;
+    margin-left: 20px;
+  }
+  h5 {
+    margin-left: -15px;
+    padding-top: 5px;
+    font-size: 15px;
+  }
+  h1 {
+    padding-bottom: 10px;
+    font-size: 35px;
+  }
+  #contFilter {
+    padding-bottom: 20px;
+  }
+  .dropdown-item {
+    font-size: 5px;
+  }
+}
+@media (max-width: 380px) {
+  #tombol {
+    background-color: #dc1afe;
+    color: #000;
+    letter-spacing: 0px;
+    text-size-adjust: inherit;
+    line-height: 1px;
+    width: 50px;
+    height: 20px;
+    font-size: 1px;
+    margin-left: 10px;
+  }
+  h5 {
+    margin-left: -15px;
+    padding-top: 5px;
+    font-size: 10px;
+  }
+  .dropdown-item {
+    font-size: 1px;
+  }
+}
+
+@media (max-width: 330px) {
+  #scbox {
+    width: 160px;
+    margin-top: 10px;
+  }
+  #tombol {
+    background-color: #dc1afe;
+    color: #000;
+    letter-spacing: 0px;
+    text-size-adjust: inherit;
+    line-height: 1px;
+    width: 50px;
+    height: 10px;
+    font-size: 1px;
+    margin-left: -5px;
+  }
+  h5 {
+    margin-left: -25px;
+    padding-top: 5px;
+    font-size: 10px;
+  }
+}

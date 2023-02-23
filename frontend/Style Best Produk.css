@@ -1,0 +1,123 @@
+* {
+    font-family: "Poppins", sans-serif;
+  }
+
+html {
+    background: #fff;
+    scroll-behavior: smooth;
+}
+
+.atas{
+    padding: 0% 2%;
+}
+
+.card-1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 100px;
+    top: 300px;
+
+    background: linear-gradient(145.13deg, rgba(32, 4, 4, 0.167) 13.76%, rgba(255, 255, 255, 0.0675) 90.06%);
+    backdrop-filter: blur(30px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 15px;
+    
+}
+.BP1, .stock, .produk{
+    text-align: center;
+}
+.whiskasBP{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.breadcrumbs {
+  position: absolute;
+  width: 30vw;
+    height: 7vh;
+    left: 10vw;
+    top: 16vh;
+}
+
+.text-logo {
+    position: absolute;
+    width: 28vw;
+      height: 4vh;
+      left: 0vw;
+      top: 8vh;
+  
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 24px;
+    letter-spacing: 0.25em;
+    padding-left: 5%;
+    padding-top: 2%;
+  
+    color: #000000;
+}
+.bread-gambar {
+    position: absolute;
+    width: 8px;
+      height: 10px;
+      left: 50px;
+      top: 5px;
+  
+    background: url(image\ bread.png);
+}
+
+.bread-best {
+    position: absolute;
+    width: 120px;
+      height: 10px;
+      left: 75px;
+      top: 0px;
+  
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 350;
+    font-size: 12px;
+    line-height: 189.4%;
+    /* or 30px */
+  
+    letter-spacing: 0.2em;
+  
+    color: #000000;
+}
+
+.bread-home {
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    left: 0px;
+    top: 0px;
+  
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 350;
+    font-size: 12px;
+    line-height: 189.4%;
+    /* or 30px */
+  
+    letter-spacing: 0.2em;
+  
+    color: #000000;
+}
+
+h2{
+    padding-top: 70px;
+}
+
+.button-projas{
+    position: absolute;
+    height: 3px;
+    left: 700px;
+    top: 250px;
+}

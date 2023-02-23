@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="https://i.ibb.co/RNdd4Ss/Logo-Remove.png" />
+    <link rel="stylesheet" href="bootsrap/css/bootstrap.min.css">
+    <title>Zoepy Petshop</title>
+    <style>
+        body {
+            background: #f9d7ff;
+        }
+
+        #tombol {
+            background-color: #dc1afe;
+            color: white;
+        }
+
+        #tombol:active,
+        #tombol:hover {
+            background-color: #ea72ff;
+            color: white;
+        }
+
+        #logo {
+            width: 10vw;
+        }
+
+        @media (max-width: 426px) {
+            #logo {
+                width: 20vw;
+            }
+
+            .btn {
+                width: 40px;
+                height: 20px;
+                font-size: 10px;
+                padding-top: 0px;
+                padding-left: 7px;
+            }
+        }
+
+        @media (max-width: 769px) {
+            #logo {
+                width: 20vw;
+            }
+
+            .btn {
+                width: 70px;
+                height: 30px;
+                font-size: 15px;
+                padding-top: 2px;
+                padding-left: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="col-md-6 offset-md-3 pb-5 pt-2">
+        <img class="img-fluid" src="https://i.ibb.co/WnXY3vL/Logo-Remove-Big.png" alt="logo" id="logo">
+    </div>
+    <div class="col-md-6 offset-md-3 pt-md-5 pb-5">
+        <div class="card" style="background-color: #fdf4ff;">
+            <div class="card-header">
+                <h3 class="mb-0">Ganti Password</h3>
+            </div>
+            <div class="card-body">
+                <form class="form" role="form" autocomplete="off">
+                    <div class="form-group">
+                        <label for="email">Email Anda</label>
+                        <input type="email" class="form-control" id="email" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPasswordOld">Password Lama</label>
+                        <input type="password" class="form-control" id="inputPasswordOld" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPasswordNew">Password Baru</label>
+                        <input type="password" class="form-control" id="inputPasswordNew" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPasswordNewVerify">Masukan Lagi Password Baru</label>
+                        <input type="password" class="form-control" id="inputPasswordNewVerify" required="">
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-secondary btn-lg float-right ml-3">Back</button>
+                        <button type="submit" class="btn btn-light btn-lg float-right" id="tombol">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

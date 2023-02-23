@@ -1,0 +1,150 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  position: relative;
+  width: auto;
+  height: auto;
+
+  background: #ffffff;
+}
+
+.header{
+  width: 75vw;
+  height: 30vh;
+}
+
+.logo {
+  position: absolute;
+  width: 13vw;
+  height: 15vh;
+}
+
+.gambar-logo {
+  position: absolute;
+  width: 100px;
+    height: 50px;
+  
+  background: url(https://i.ibb.co/qsFHn54/Logo-Remove-Small.png);
+}
+
+.text-logo {
+  position: absolute;
+  width: 28vw;
+    height: 4vh;
+    left: 0vw;
+    top: 8vh;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 9px;
+  line-height: 24px;
+  letter-spacing: 0.25em;
+
+  color: #000000;
+}
+
+.breadcrumbs {
+  position: absolute;
+  width: 15vw;
+    height: 7vh;
+    left: 10vw;
+    top: 16vh;
+}
+
+.bread-home {
+  position: absolute;
+  width: 10px;
+    height: 3px;
+    left: 0px;
+    top: 0px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 12px;
+  line-height: 189.4%;
+  /* or 30px */
+
+  letter-spacing: 0.2em;
+
+  color: #000000;
+}
+
+.bread-gambar {
+  position: absolute;
+  width: 8px;
+    height: 10px;
+    left: 50px;
+    top: 5px;
+
+  background: url(https://i.ibb.co/YdHwrSW/image-bread.png);
+}
+
+.bread-gambar-2 {
+  position: absolute;
+  width: 8px;
+    height: 10px;
+    left: 130px;
+    top: 5px;
+
+  background: url(https://i.ibb.co/YdHwrSW/image-bread.png);
+}
+
+.bread-info {
+  position: absolute;
+  width: 80px;
+    height: 30px;
+    left: 65px;
+    top: 0px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 12px;
+  line-height: 189.4%;
+  /* or 30px */
+
+  letter-spacing: 0.2em;
+}
+
+.bread-info-detail {
+  position: absolute;
+  width: 120px;
+    height: 30px;
+    left: 148px;
+    top: 0px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 12px;
+  line-height: 189.4%;
+  /* or 30px */
+
+  letter-spacing: 0.2em;
+
+  color: #000000;
+}
+
+.kode-jasa{
+  margin: 15px;
+}
+
+.card{
+  position: absolute;
+  left: 13vw;
+  width: 70%;
+  text-align: center;
+  align-content: center;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.img-info{
+  align-self: center;
+  margin: 10px;
+}
+

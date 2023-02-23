@@ -1,0 +1,200 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  position: relative;
+  width: auto;
+  height: auto;
+
+  background: #ffffff;
+}
+
+.header {
+  width: 75vw;
+  height: 30vh;
+}
+
+.logo {
+  position: absolute;
+  width: 13vw;
+  height: 15vh;
+}
+.gambar-logo {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+
+  background: url(https://i.ibb.co/qsFHn54/Logo-Remove-Small.png);
+}
+
+.text-logo {
+  position: absolute;
+  width: 28vw;
+  height: 4vh;
+  left: 0vw;
+  top: 10vh;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 9px;
+  line-height: 24px;
+  letter-spacing: 0.25em;
+
+  color: #000000;
+}
+
+.breadcrumbs {
+  position: absolute;
+  width: 15vw;
+  height: 7vh;
+  left: 10vw;
+  top: 16vh;
+}
+
+.bread-home {
+  position: absolute;
+  width: 10px;
+  height: 3px;
+  left: 0px;
+  top: 0px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 12px;
+  line-height: 189.4%;
+  /* or 30px */
+
+  letter-spacing: 0.2em;
+
+  color: #000000;
+}
+
+.bread-gambar {
+  position: absolute;
+  width: 8px;
+  height: 10px;
+  left: 50px;
+  top: 5px;
+
+  background: url(https://i.ibb.co/YdHwrSW/image-bread.png);
+}
+
+.bread-info {
+  position: absolute;
+  width: 80px;
+  height: 30px;
+  left: 65px;
+  top: 0px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 12px;
+  line-height: 189.4%;
+  /* or 30px */
+
+  letter-spacing: 0.2em;
+
+  color: #000000;
+}
+
+.home-ic{
+  margin-left: 60vw;
+}
+
+.img-att{
+  width: 150px;
+  margin-top: 4vw;
+}
+
+.img-att-2{
+  width: 190px;
+  margin-top: -3vw;
+  margin-left: 70vw;
+}
+
+.card {
+  align-items: center;
+  left: 12vw;
+  width: 70%;
+  margin-bottom: 10vh;
+}
+
+.text-title {
+  margin-top: 10vh;
+  padding-top: 1vh;
+}
+
+.jenis-jasa {
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+}
+
+.ket {
+  padding-top: 5vh;
+  text-align: center;
+}
+
+.btn-detail {
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  width: 23vw;
+  height: 6vh;
+  background: #d667e9;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 18px;
+  border: #d667e9;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 189.4%;
+  /* or 47px */
+
+  text-align: center;
+  letter-spacing: 0.2em;
+
+  color: #ffffff;
+}
+
+.btn-detail:hover {
+  background-color: #f09eff;
+  box-shadow: none;
+}
+
+.rotateimgleft {
+  transform: rotate(50deg);
+}
+
+.rotateimgright {
+  transform: rotate(-320deg);
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .card {
+    width: 85vw;
+    height: 60vh;
+    left: 0vh;
+  }
+
+  .btn-detail {
+    position: absolute;
+    width: 60vw;
+    height: 6vh;
+    align-self: center;
+    top: 40vh;
+    left: 12vw;
+  }
+
+  .img-att-2{
+    width: 150px;
+    margin-top: -9vw;
+    margin-left: 30vw;
+  }
+}

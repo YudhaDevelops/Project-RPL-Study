@@ -1,0 +1,54 @@
+html {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background: url("https://i.ibb.co/94hR0YG/back-landing1.png"), linear-gradient(to left, #f0acfc, #fff);
+}
+
+.atas {
+  overflow: hidden;
+  background-color: #f19eff;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #d667e9;
+}
+p {
+  float: right;
+  color: white;
+  padding: 0% 2%;
+  text-decoration: solid;
+  padding-top: 1%;
+}
+.logo {
+  float: left;
+  padding: 0% 2%;
+}
+
+.tengah {
+  padding-top: 8%;
+  text-align: center;
+}
+h1 {
+  font-size: 65px;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #d667e9;
+  border: 2px solid #fff;
+  border-radius: 15px;
+}
+
+.masuk {
+  padding: 6px 35px;
+  font-size: 12px;
+}

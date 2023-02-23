@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="https://i.ibb.co/RNdd4Ss/Logo-Remove.png" />
+    <link rel="stylesheet" href="bootsrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="W2_TampilProduk.css">
+    <title>Zoepy Petshop</title>
+</head>
+
+<body>
+    <nav class="navbar fixed-top justify-content-between" id="navbar">
+        <div class="row">
+            <div class="col-3">
+                <a href="index.html #home"><img class="img-fluid" src="https://i.ibb.co/WnXY3vL/Logo-Remove-Big.png"
+                        alt="logo" id="logo"></a>
+            </div>
+            <div class="col-6">
+                <form class="form-inline" id="scbox">
+                    <div class="input-group mb-3" id="boxx">
+                        <input type="text" class="form-control" placeholder="Cari Produk" aria-label="Cari Produk"
+                            aria-describedby="basic-addon2" id="boxxes">
+                        <div class="input-group-append" id="car">
+                            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit" id="cari">Cari</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-1" id="scbox">
+                <div class="fs-2">
+                    <a href="index.html #home"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            class="bi bi-house-door-fill" viewBox="0 0 16 16" id="kembali">
+                            <path
+                                d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid" id="atas"></div>
+
+    <div class="container-fluid" id="contFilter">
+        <div class="row" id="filter">
+            <div class="col-1">
+            </div>
+            <div class="col-1" id="filter">
+                <h5>Urutkan: </h5>
+            </div>
+            <div class="col-2">
+                <button type="button" class="btn btn-outline-dark" id="tombol">Terbaru</button>
+            </div>
+            <div class="col-2">
+                <button type="button" class="btn btn-outline-dark" id="tombol">Terlaris</button>
+            </div>
+            <div class="col-2">
+                <div class="dropdown">
+                    <button class="btn btn-dark dropdown-toggle" type="button" id="tombol" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Harga
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="tombol">
+                        <a class="dropdown-item bg-light" href="#">Harga Rendah ke TInggi</a>
+                        <a class="dropdown-item bg-light" href="#">Harga Rendah ke TInggi</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="dropdown">
+                    <button class="btn btn-dark dropdown-toggle" type="button" id="tombol" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Nama
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="tombol">
+                        <a class="dropdown-item bg-light" href="#">A-Z</a>
+                        <a class="dropdown-item bg-light" href="#">Z-A</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="batas"></div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center">
+                <h1>Produk</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="produk">
+        <div class="container xl">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card xs xl" data-toggle="modal" data-target="#modal2" id="proct">
+                        <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/8/3/a66a35f5-7aa1-4cdf-bcd8-4c76567110c3.jpg"
+                            class="card-img-top" alt="g1">
+                        <div class="card-block">
+                            <b>
+                                <p class="card-text text-center">Nama Produk</p>
+                            </b>
+                            <p class="card-text">Rp 25.000-,</p>
+                            <p class="card-text">Stok</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card xs xl" data-toggle="modal" data-target="#modal2" id="proct">
+                        <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/8/3/a66a35f5-7aa1-4cdf-bcd8-4c76567110c3.jpg"
+                            class="card-img-top" alt="g1">
+                        <div class="card-block">
+                            <b>
+                                <p class="card-text text-center">Nama Produk</p>
+                            </b>
+                            <p class="card-text">Rp 25.000-,</p>
+                            <p class="card-text">Stok</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card xs xl" data-toggle="modal" data-target="#modal2" id="proct">
+                        <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/8/3/a66a35f5-7aa1-4cdf-bcd8-4c76567110c3.jpg"
+                            class="card-img-top" alt="g1">
+                        <div class="card-block">
+                            <b>
+                                <p class="card-text text-center">Nama Produk</p>
+                            </b>
+                            <p class="card-text">Rp 25.000-,</p>
+                            <p class="card-text">Stok</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card xs xl" data-toggle="modal" data-target="#modal2" id="proct">
+                        <img src="https://res.cloudinary.com/ruparupa-com/image/upload//f_auto,q_auto:eco/v1629126097/Products/134356_1.jpg"
+                            class="card-img-top" alt="g1">
+                        <div class="card-block">
+                            <b>
+                                <p class="card-text text-center">Nama Produk</p>
+                            </b>
+                            <p class="card-text">Rp 25.000-,</p>
+                            <p class="card-text">Stok</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card xs xl" data-toggle="modal" data-target="#modal2" id="proct">
+                        <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/8/3/a66a35f5-7aa1-4cdf-bcd8-4c76567110c3.jpg"
+                            class="card-img-top" alt="g1">
+                        <div class="card-block">
+                            <b>
+                                <p class="card-text text-center">Nama Produk</p>
+                            </b>
+                            <p class="card-text">Rp 25.000-,</p>
+                            <p class="card-text">Stok</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card xs xl" data-toggle="modal" data-target="#modal2" id="proct">
+                        <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/8/3/a66a35f5-7aa1-4cdf-bcd8-4c76567110c3.jpg"
+                            class="card-img-top" alt="g1">
+                        <div class="card-block">
+                            <b>
+                                <p class="card-text text-center">Nama Produk</p>
+                            </b>
+                            <p class="card-text">Rp 25.000-,</p>
+                            <p class="card-text">Stok</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card xs xl" data-toggle="modal" data-target="#modal2" id="proct">
+                        <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/8/3/a66a35f5-7aa1-4cdf-bcd8-4c76567110c3.jpg"
+                            class="card-img-top" alt="g1">
+                        <div class="card-block">
+                            <b>
+                                <p class="card-text text-center">Nama Produk</p>
+                            </b>
+                            <p class="card-text">Rp 25.000-,</p>
+                            <p class="card-text">Stok</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card xs xl" data-toggle="modal" data-target="#modal2" id="proct">
+                        <img src="https://res.cloudinary.com/ruparupa-com/image/upload//f_auto,q_auto:eco/v1629126097/Products/134356_1.jpg"
+                            class="card-img-top" alt="g1">
+                        <div class="card-block">
+                            <b>
+                                <p class="card-text text-center">Nama Produk</p>
+                            </b>
+                            <p class="card-text">Rp 25.000-,</p>
+                            <p class="card-text">Stok</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card xs xl" data-toggle="modal" data-target="#modal2" id="proct">
+                        <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/8/3/a66a35f5-7aa1-4cdf-bcd8-4c76567110c3.jpg"
+                            class="card-img-top" alt="g1">
+                        <div class="card-block">
+                            <b>
+                                <p class="card-text text-center">Nama Produk</p>
+                            </b>
+                            <p class="card-text">Rp 25.000-,</p>
+                            <p class="card-text">Stok</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card xs xl" data-toggle="modal" data-target="#modal2" id="proct">
+                        <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/8/3/a66a35f5-7aa1-4cdf-bcd8-4c76567110c3.jpg"
+                            class="card-img-top" alt="g1">
+                        <div class="card-block">
+                            <b>
+                                <p class="card-text text-center">Nama Produk</p>
+                            </b>
+                            <p class="card-text">Rp 25.000-,</p>
+                            <p class="card-text">Stok</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card xs xl" data-toggle="modal" data-target="#modal2" id="proct">
+                        <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/8/3/a66a35f5-7aa1-4cdf-bcd8-4c76567110c3.jpg"
+                            class="card-img-top" alt="g1">
+                        <div class="card-block">
+                            <b>
+                                <p class="card-text text-center">Nama Produk</p>
+                            </b>
+                            <p class="card-text">Rp 25.000-,</p>
+                            <p class="card-text">Stok</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card xs xl" data-toggle="modal" data-target="#modal2" id="proct">
+                        <img src="https://res.cloudinary.com/ruparupa-com/image/upload//f_auto,q_auto:eco/v1629126097/Products/134356_1.jpg"
+                            class="card-img-top" alt="g1">
+                        <div class="card-block">
+                            <b>
+                                <p class="card-text text-center">Nama Produk</p>
+                            </b>
+                            <p class="card-text">Rp 25.000-,</p>
+                            <p class="card-text">Stok</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card xs xl" data-toggle="modal" data-target="#modal2" id="proct">
+                        <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/8/3/a66a35f5-7aa1-4cdf-bcd8-4c76567110c3.jpg"
+                            class="card-img-top" alt="g1">
+                        <div class="card-block">
+                            <b>
+                                <p class="card-text text-center">Nama Produk</p>
+                            </b>
+                            <p class="card-text">Rp 25.000-,</p>
+                            <p class="card-text">Stok</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card xs xl" data-toggle="modal" data-target="#modal2" id="proct">
+                        <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/8/3/a66a35f5-7aa1-4cdf-bcd8-4c76567110c3.jpg"
+                            class="card-img-top" alt="g1">
+                        <div class="card-block">
+                            <b>
+                                <p class="card-text text-center">Nama Produk</p>
+                            </b>
+                            <p class="card-text">Rp 25.000-,</p>
+                            <p class="card-text">Stok</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card xs xl" data-toggle="modal" data-target="#modal2" id="proct">
+                        <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/8/3/a66a35f5-7aa1-4cdf-bcd8-4c76567110c3.jpg"
+                            class="card-img-top" alt="g1">
+                        <div class="card-block">
+                            <b>
+                                <p class="card-text text-center">Nama Produk</p>
+                            </b>
+                            <p class="card-text">Rp 25.000-,</p>
+                            <p class="card-text">Stok</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card xs xl" data-toggle="modal" data-target="#modal2" id="proct">
+                        <img src="https://res.cloudinary.com/ruparupa-com/image/upload//f_auto,q_auto:eco/v1629126097/Products/134356_1.jpg"
+                            class="card-img-top" alt="g1">
+                        <div class="card-block">
+                            <b>
+                                <p class="card-text text-center">Nama Produk</p>
+                            </b>
+                            <p class="card-text">Rp 25.000-,</p>
+                            <p class="card-text">Stok</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card xs xl" data-toggle="modal" data-target="#modal2" id="proct">
+                        <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/8/3/a66a35f5-7aa1-4cdf-bcd8-4c76567110c3.jpg"
+                            class="card-img-top" alt="g1">
+                        <div class="card-block">
+                            <b>
+                                <p class="card-text text-center">Nama Produk</p>
+                            </b>
+                            <p class="card-text">Rp 25.000-,</p>
+                            <p class="card-text">Stok</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card xs xl" data-toggle="modal" data-target="#modal2" id="proct">
+                        <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/8/3/a66a35f5-7aa1-4cdf-bcd8-4c76567110c3.jpg"
+                            class="card-img-top" alt="g1">
+                        <div class="card-block">
+                            <b>
+                                <p class="card-text text-center">Nama Produk</p>
+                            </b>
+                            <p class="card-text">Rp 25.000-,</p>
+                            <p class="card-text">Stok</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card xs xl" data-toggle="modal" data-target="#modal2" id="proct">
+                        <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/8/3/a66a35f5-7aa1-4cdf-bcd8-4c76567110c3.jpg"
+                            class="card-img-top" alt="g1">
+                        <div class="card-block">
+                            <b>
+                                <p class="card-text text-center">Nama Produk</p>
+                            </b>
+                            <p class="card-text">Rp 25.000-,</p>
+                            <p class="card-text">Stok</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card xs xl" data-toggle="modal" data-target="#modal2" id="proct">
+                        <img src="https://res.cloudinary.com/ruparupa-com/image/upload//f_auto,q_auto:eco/v1629126097/Products/134356_1.jpg"
+                            class="card-img-top" alt="g1">
+                        <div class="card-block">
+                            <b>
+                                <p class="card-text text-center">Nama Produk</p>
+                            </b>
+                            <p class="card-text">Rp 25.000-,</p>
+                            <p class="card-text">Stok</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-fixed-bottom navbar-expand-lg navbar-light" id="navbawah">
+        <a href="index.html #home"><img class="img-fluid" src="https://i.ibb.co/WnXY3vL/Logo-Remove-Big.png" alt="logo"
+                id="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2"
+            aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active p-3">
+                    <h5>Alamat : </h5>
+                    <p>Jl. Tajem, Maguwoharjo, Sleman, DIY</p>
+                </li>
+                <li class="nav-item active p-3">
+                    <h5>No Telpon : </h5>
+                    <p>081234567890</p>
+                </li>
+                <li class="nav-item active p-3">
+                    <h5>Email : </h5>
+                    <p>ZoepyPetshop@gmail.com</p>
+                </li>
+                <li class="nav-item active p-3">
+                    <h5>Ikuti Kami : </h5>
+                    <a href="#">Facebook</a> <a href="#">Instagram</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Modal Detail -->
+    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header ">
+                    <h4 class="modal-title" id="exampleModalLabel">Detail Produk</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <img class="img-fluid"
+                        src="https://images.theconversation.com/files/462781/original/file-20220512-14-mm2ah0.jpeg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop"
+                        alt="gambar" width="350" height="250">
+                    <h5>Nama Produk</h5>
+                    <p>Rp 25.000-,</p>
+                    <p>Stok</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

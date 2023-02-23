@@ -1,0 +1,436 @@
+/* .container-fluid {
+    background: #f9d7ff;
+} */
+.card {
+    border: 1px outset;
+    padding: 10px;
+    box-shadow: 5px 5px #888888;
+    border-radius: 5%;
+}
+.reveal {
+    position: relative;
+    transform: translateX(-100px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+.reveal.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+.fa {
+    color: black;
+}
+#ttgkm {
+    border-radius: 20px;
+}
+#logoBawah {
+    width: 150px;
+}
+@media (max-width: 1024px) {
+    #logoBawah {
+        width: 90px;
+    }
+    #logo {
+        width: 90px;
+        height: 40px;
+    }
+    #awal {
+        padding-top: 120px;
+    }
+    #kami {
+        padding-top: 20px;
+    }
+    #produk {
+        padding-top: 20px;
+    }
+    #kucing {
+        padding-top: 20px;
+    }
+    #jasa {
+        padding-top: 20px;
+    }
+    #perawatan {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #review {
+        padding-bottom: 5vh;
+    }
+    #proct {
+        width: 220px;
+        height: 280px;
+    }
+    .card-text {
+        margin-left: 5px;
+        margin-bottom: 0px;
+        font-size: 5px;
+    }
+    #rawat {
+        font-size: 5px;
+        width: 170px;
+        height: 250px;
+        margin-bottom: 15px;
+    }
+    #txt {
+        margin-left: 5px;
+    }
+    h1 {
+        font-size: 4.5vw;
+        text-align: center;
+    }
+    h2 {
+        font-size: 2.5vw;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    #info {
+        padding-left: 80px;
+        font-size: 1vw;
+    }
+    .btn-outline-dark {
+        background-color: #dc1afe;
+        font-size: 1px;
+        color: #000;
+        letter-spacing: 1px;
+        text-size-adjust: inherit;
+        line-height: 1px;
+        border-radius: 10rem;
+        height: 20px;
+    }
+    #out {
+        margin-top: 5px;
+        height: 20px;
+        font-size: 1px;
+        color: white;
+        text-justify: auto;
+        text-size-adjust: inherit;
+        border-radius: 10rem;
+    }
+    .carousel {
+        width: 300px;
+    }
+    h5 {
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    .carousel-item {
+        font-size: 10px;
+    }
+}
+@media (max-width: 768px) {
+    #logoBawah {
+        width: 70px;
+    }
+    #logo {
+        width: 80px;
+        height: 40px;
+    }
+    #awal {
+        padding-top: 120px;
+    }
+    #kami {
+        padding-top: 20px;
+    }
+    #produk {
+        padding-top: 20px;
+    }
+    #kucing {
+        padding-top: 20px;
+    }
+    #jasa {
+        padding-top: 20px;
+    }
+    #perawatan {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #review {
+        padding-bottom: 5vh;
+    }
+    #proct {
+        width: 100px;
+        height: 160px;
+    }
+    .card-text {
+        margin-left: 5px;
+        margin-bottom: 0px;
+        font-size: 1px;
+    }
+    #rawat {
+        font-size: 1px;
+        width: 150px;
+        height: 230px;
+        margin-bottom: 15px;
+    }
+    #txt {
+        margin-left: 5px;
+    }
+    h1 {
+        font-size: 4.5vw;
+        text-align: center;
+    }
+    h2 {
+        font-size: 2.5vw;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    #info {
+        font-size: 1vw;
+    }
+    .btn-outline-dark {
+        background-color: #dc1afe;
+        font-size: 1px;
+        color: #000;
+        letter-spacing: 1px;
+        text-size-adjust: inherit;
+        line-height: 1px;
+        border-radius: 10rem;
+    }
+    #out {
+        margin-top: 5px;
+        height: 20px;
+        font-size: 1px;
+        color: white;
+        text-justify: auto;
+        text-size-adjust: inherit;
+        border-radius: 10rem;
+    }
+    .carousel {
+        width: 300px;
+    }
+    h5 {
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    .carousel-item {
+        font-size: 10px;
+    }
+}
+@media (min-width: 319px) and (max-width: 426px) {
+    #proct {
+        width: 220px;
+        height: 280px;
+        margin-bottom: 20px;
+    }
+    .card-text {
+        margin-left: 10px;
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+    #rawat {
+        font-size: 10px;
+        width: 200px;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .btn-outline-dark {
+        font-size: 10px;
+    }
+    #info {
+        margin-left: -55px;
+    }
+    #logoBawah {
+        width: 70px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #logo {
+        width: 180px;
+        height: 80px;
+    }
+    #navbar {
+        padding-left: 50px;
+    }
+    #proct {
+        width: 300px;
+        height: 400px;
+    }
+    .card-text {
+        margin-left: 10px;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+    #rawat {
+        font-size: 20px;
+        width: 300px;
+        height: 420px;
+    }
+    #txt {
+        margin-left: 20px;
+    }
+    #awal {
+        padding-top: 300px;
+    }
+    #kami {
+        padding-top: 100px;
+    }
+    #produk {
+        padding-top: 120px;
+    }
+    #kucing {
+        padding-top: 120px;
+    }
+    #jasa {
+        padding-top: 120px;
+    }
+    #perawatan {
+        padding-top: 120px;
+        padding-bottom: 50px;
+    }
+    #review {
+        padding-bottom: 50px;
+    }
+    h1 {
+        text-align: center;
+        font-size: 80px;
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-bottom: 10px;
+    }
+    h2 {
+        padding-bottom: 50px;
+        padding-left: 200px;
+        padding-right: 200px;
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 50px;
+    }
+    #info {
+        font-size: 20px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    .btn-outline-dark {
+        background-color: #dc1afe;
+        color: #000;
+        letter-spacing: 1px;
+        text-size-adjust: inherit;
+        line-height: 18px;
+        border-radius: 10rem;
+    }
+    #out {
+        color: white;
+        letter-spacing: 1px;
+        text-size-adjust: inherit;
+        line-height: 18px;
+        border-radius: 10rem;
+    }
+    .carousel {
+        width: 600px;
+    }
+    h5 {
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    .carousel-item {
+        font-size: 20px;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.carousel {
+    display: flex;
+    margin: auto;
+    float: none;
+}
+#navbar {
+    background-color: #f2a8ff;
+}
+#out {
+    color: white;
+    letter-spacing: 1px;
+    text-size-adjust: inherit;
+    line-height: 18px;
+    border-radius: 10rem;
+}
+.card {
+    display: flex;
+    margin: auto;
+    float: none;
+    box-sizing: border-box;
+    backdrop-filter: blur(30px);
+}
+.carousel-item {
+    color: #000;
+    backdrop-filter: blur(30px);
+    background-color: #ffffff;
+}
+.carousel-inner {
+    border-color: #000;
+    border: #000;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.bg {
+    animation: slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #f9d7ff 50%, #f5bbff 50%);
+    bottom: 0;
+    left: -50%;
+    opacity: 0.5;
+    position: fixed;
+    right: -50%;
+    top: 0;
+    z-index: -1;
+}
+
+.bg2 {
+    animation-direction: alternate-reverse;
+    animation-duration: 4s;
+}
+
+.bg3 {
+    animation-duration: 5s;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0.25em;
+    box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    left: 50%;
+    padding: 10vmin;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-family: monospace;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-25%);
+    }
+    100% {
+        transform: translateX(25%);
+    }
+}

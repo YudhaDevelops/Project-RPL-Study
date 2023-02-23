@@ -1,0 +1,55 @@
+html {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background: linear-gradient(to left, #f0acfc, #fff);
+}
+
+.atas {
+  padding: 0% 2%;
+}
+
+.informasi {
+  text-align: center;
+}
+.judul {
+  font-size: 45px;
+  font-weight: 900;
+}
+.gambar1 {
+  width: 400px;
+  height: 250px;
+  margin-right: 5%;
+}
+.gambar2 {
+  width: 400px;
+  height: 250px;
+  margin-left: 5%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #d667e9;
+}
+.panah {
+  width: 11px;
+  height: 11px;
+}
+.layanan {
+  margin-right: 35%;
+  font-size: 20px;
+  font-weight: 900;
+}
+.berlisensi {
+  margin-left: 35%;
+  font-size: 20px;
+  margin-top: -2.5%;
+  font-weight: 900;
+}
+.isiLayanan {
+  margin-right: 35%;
+}
+.isiBerlisensi {
+  margin-left: 35%;
+  margin-top: -4%;
+}
